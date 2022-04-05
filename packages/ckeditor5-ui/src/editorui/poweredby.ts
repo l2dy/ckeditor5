@@ -99,6 +99,7 @@ export default class PoweredBy extends DomEmitterMixin() {
 	 * Enables "powered by" label once the editor (ui) is ready.
 	 */
 	private _handleEditorReady(): void {
+		return;
 		const editor = this.editor;
 		const forceVisible = !!editor.config.get( 'ui.poweredBy.forceVisible' );
 
